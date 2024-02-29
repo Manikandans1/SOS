@@ -1,4 +1,4 @@
-package com.example.sos
+package com.sosapp.sos
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

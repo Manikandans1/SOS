@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.sos"
+    namespace = "com.sosapp.sos"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.sos"
+        applicationId = "com.sosapp.sos"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
