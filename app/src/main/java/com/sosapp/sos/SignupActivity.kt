@@ -1,9 +1,9 @@
-package com.example.sos
+package com.sosapp.sos
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.sos.databinding.ActivitySignupBinding
+import com.sosapp.sos.databinding.ActivitySignupBinding
 
 class SignupActivity : AppCompatActivity() {
     lateinit var mainSignupBinding: ActivitySignupBinding

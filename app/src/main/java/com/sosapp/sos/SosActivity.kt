@@ -1,11 +1,10 @@
-package com.example.sos
+package com.sosapp.sos
 
 import android.content.DialogInterface
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
-import com.example.sos.databinding.ActivitySosBinding
+import com.sosapp.sos.databinding.ActivitySosBinding
 
 class SosActivity : AppCompatActivity() {
     lateinit var mainSosBinding: ActivitySosBinding

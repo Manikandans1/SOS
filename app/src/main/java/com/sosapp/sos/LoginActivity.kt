@@ -1,9 +1,9 @@
-package com.example.sos
+package com.sosapp.sos
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.sos.databinding.ActivityLoginBinding
+import com.sosapp.sos.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
     lateinit var mainLoginBinding: ActivityLoginBinding

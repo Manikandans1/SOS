@@ -1,9 +1,9 @@
-package com.example.sos
+package com.sosapp.sos
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.sos.databinding.ActivityMainBinding
+import com.sosapp.sos.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var mainBinding: ActivityMainBinding

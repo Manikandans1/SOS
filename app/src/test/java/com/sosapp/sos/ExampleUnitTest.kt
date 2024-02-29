@@ -1,4 +1,4 @@
-package com.example.sos
+package com.sosapp.sos
 
 import org.junit.Test
 
