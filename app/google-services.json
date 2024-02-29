@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "669902253767",
+    "firebase_url": "https://help-sos-91c19-default-rtdb.firebaseio.com",
+    "project_id": "help-sos-91c19",
+    "storage_bucket": "help-sos-91c19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669902253767:android:689983f37d30b2e96318e2",
+        "android_client_info": {
+          "package_name": "com.sosapp.sos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQc8Je_MNhTWKv68uO1UMSQYeVqNMBW3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

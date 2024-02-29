@@ -20,7 +20,6 @@ This permission is necessary for devices
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- We also ask user to remove any battery optimization constraints during runtime -->
     <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -32,21 +31,23 @@ This permission is necessary for devices
         android:theme="@style/Theme.SOS"
         tools:targetApi="31">
         <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
             android:name=".AlterActivity"
             android:exported="true" />
         <activity
             android:name=".SosActivity"
             android:exported="true" />
         <activity
-            android:name=".SignupActivity"
+            android:name=".SignUpActivity2"
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".splash"
             android:exported="true">
@@ -55,8 +56,7 @@ This permission is necessary for devices
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <!-- register the receiver -->
+        </activity> <!-- register the receiver -->
         <receiver
             android:name=".ReactivateService"
             android:enabled="true"
@@ -68,9 +68,7 @@ This permission is necessary for devices
 
         <activity
             android:name=".MainActivity2"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>

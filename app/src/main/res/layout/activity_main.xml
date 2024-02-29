@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
+    android:background="#fefbf6"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -24,7 +24,7 @@
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:layout_marginBottom="41dp"
-        android:backgroundTint="#F60A0A"
+        android:backgroundTint="#7bd3ea"
         android:text="LOG IN"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/signupmain"
@@ -37,11 +37,10 @@
         android:layout_width="211dp"
         android:layout_height="45dp"
         android:layout_marginBottom="108dp"
-        android:backgroundTint="#F60707"
+        android:backgroundTint="#7bd3ea"
         android:text="SIGN UP"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

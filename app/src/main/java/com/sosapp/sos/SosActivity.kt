@@ -1,6 +1,7 @@
 package com.sosapp.sos
 
 import android.content.DialogInterface
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
@@ -15,6 +16,9 @@ class SosActivity : AppCompatActivity() {
         setContentView(view)
 
         mainSosBinding.button3.setOnClickListener {
+            val intent = Intent(this@SosActivity,MainActivity2::class.java)
+            startActivity(intent)
+            /*
             var alter = AlertDialog.Builder(this)
             alter.setIcon(R.drawable.baseline_warning_amber_24)
             alter.setTitle("Alter Message")
@@ -24,6 +28,8 @@ class SosActivity : AppCompatActivity() {
                 dialogInterface.cancel()
             })
             alter.create().show()
+
+             */
         }
     }
 }
