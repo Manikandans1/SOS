@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/logoo"
     tools:context=".LoginActivity">
 
 
@@ -12,15 +13,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:layout_marginBottom="54dp"
+        android:layout_marginBottom="24dp"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
         app:counterEnabled="true"
         app:counterMaxLength="15"
         app:endIconMode="clear_text"
-        app:helperText="*Write your name"
+        app:endIconTint="@color/white"
         app:helperTextTextColor="@color/blue"
+        app:hintTextColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        app:startIconTint="@color/white">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
@@ -28,7 +35,12 @@
             android:layout_height="wrap_content"
             android:hint="Email:"
             android:inputType="textEmailAddress"
-            android:textSize="20dp" />
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="229dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -37,16 +49,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="16dp"
+        android:textColorHint="@color/white"
+        app:boxStrokeColor="@color/white"
         app:counterEnabled="true"
         app:counterMaxLength="15"
         app:endIconMode="password_toggle"
-        app:helperText="*Write your name"
+        app:endIconTint="@color/white"
         app:helperTextTextColor="@color/blue"
+        app:hintTextColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/Submit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:startIconTint="@color/white">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
@@ -54,17 +71,25 @@
             android:layout_height="wrap_content"
             android:hint="Password:"
             android:inputType="textEmailAddress"
-            android:textSize="20dp" />
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="336dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/Submit"
         android:layout_width="211dp"
         android:layout_height="45dp"
-        android:layout_marginBottom="57dp"
+        android:layout_marginBottom="176dp"
+        android:backgroundTint="#ED0909"
         android:text="SUBMIT"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

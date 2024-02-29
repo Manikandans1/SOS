@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/logoo"
     tools:context=".SosActivity">
 
     <Button
@@ -26,6 +27,7 @@
         android:layout_height="150dp"
         android:backgroundTint="#ff0000"
         android:text="S O S"
+        android:textColor="@color/white"
         android:textSize="37sp"
         app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,6 +42,7 @@
         android:layout_marginBottom="175dp"
         android:gravity="center"
         android:text="PRESS THE BUTTON IN CASE OF EMERGENCY"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
