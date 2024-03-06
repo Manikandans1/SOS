@@ -49,6 +49,12 @@ class SignupActivity : AppCompatActivity() {
 
                     Toast.makeText(this, "Successfully Saved", Toast.LENGTH_SHORT).show()
                     if(1==1){
+                        val gotobutton = findViewById<Button>(R.id.save)
+                        gotobutton.setOnClickListener {
+
+                            val intent1 = Intent(this, SignUpActivity2::class.java)
+                            startActivity(intent1)
+                        }
 
 
                     }
@@ -67,6 +73,7 @@ class SignupActivity : AppCompatActivity() {
 
         }
 
+
     }
 
     data class user(
@@ -78,6 +85,7 @@ class SignupActivity : AppCompatActivity() {
         val mothername: String? =null,
         val homeaddress: String? =null
     ){
+
 
     }
 }
